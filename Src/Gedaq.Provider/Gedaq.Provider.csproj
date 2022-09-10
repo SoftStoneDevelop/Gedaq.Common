@@ -4,7 +4,7 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Gedaq.Provider</PackageId>
-		<PackageVersion>0.0.2.0</PackageVersion>
+		<PackageVersion>0.0.3.0</PackageVersion>
 		<Authors>Brevnov Vyacheslav Sergeevich</Authors>
 		<RepositoryUrl>https://github.com/SoftStoneDevelop/Gedaq.Provider</RepositoryUrl>
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
