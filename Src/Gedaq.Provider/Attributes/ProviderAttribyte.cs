@@ -4,9 +4,9 @@ using System;
 namespace Gedaq.Provider.Attributes
 {
     [AttributeUsage(AttributeTargets.Class)]
-    public sealed class ProviderAttribyte : Attribute
+    public sealed class ProviderAttribute : Attribute
     {
-        public ProviderAttribyte(Dialect dialect)
+        public ProviderAttribute(Dialect dialect)
         {
         }
     }
