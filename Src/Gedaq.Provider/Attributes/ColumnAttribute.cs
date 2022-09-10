@@ -3,9 +3,9 @@
 namespace Gedaq.Provider.Attributes
 {
     [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, AllowMultiple = false)]
-    public sealed class ColumnAttribute : Attribute
+    public abstract class ColumnAttribute : Attribute
     {
-        public ColumnAttribute(string nameInDatabase)
+        protected ColumnAttribute(string nameInDatabase)
         {
         }
     }

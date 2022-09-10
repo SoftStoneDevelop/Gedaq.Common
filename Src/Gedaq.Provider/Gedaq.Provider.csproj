@@ -4,11 +4,11 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Gedaq.Provider</PackageId>
-		<PackageVersion>0.0.3.0</PackageVersion>
+		<PackageVersion>0.0.4.0</PackageVersion>
 		<Authors>Brevnov Vyacheslav Sergeevich</Authors>
 		<RepositoryUrl>https://github.com/SoftStoneDevelop/Gedaq.Provider</RepositoryUrl>
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-		<Description>Attributes and provider required for Gedaq ORM operation</Description>
+		<Description>Common attributes and provider required for Gedaq ORM operation. This package is included as a development dependency of Gedaq.{Specific Database Provider} NuGet package and does not need to be installed.</Description>
 		<PackageTags>orm, database, gedaq, attribute, ObjectRelationalMapping, sql </PackageTags>
 		<NoPackageAnalysis>true</NoPackageAnalysis>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
