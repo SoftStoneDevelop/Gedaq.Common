@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Gedaq.Provider.Enums;
+using System;
 
 namespace Gedaq.Provider.Attributes
 {
@@ -6,5 +7,12 @@ namespace Gedaq.Provider.Attributes
     public abstract class ScalarAttribute : Attribute
     {
         protected ScalarAttribute() { }
+
+        public ScalarAttribute(
+            string query,
+            MethodType methodType
+            )
+        {
+        }
     }
 }
