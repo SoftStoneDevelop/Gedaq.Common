@@ -4,11 +4,11 @@ using System;
 namespace Gedaq.Provider.Attributes
 {
     [AttributeUsage(AttributeTargets.Method | AttributeTargets.Class | AttributeTargets.Struct, AllowMultiple = false)]
-    public abstract class QueryReadAttribute : Attribute
+    public abstract class NonQueryAttribute : Attribute
     {
-        protected QueryReadAttribute() { }
+        protected NonQueryAttribute() { }
 
-        public QueryReadAttribute((string query, string itemTypeName)[] queries, MethodType methodType)
+        public NonQueryAttribute(string[] queries, MethodType methodType)
         {
         }
     }
