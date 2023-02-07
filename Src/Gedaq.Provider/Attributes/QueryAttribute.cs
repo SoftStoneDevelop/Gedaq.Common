@@ -8,14 +8,7 @@ namespace Gedaq.Provider.Attributes
     {
         protected QueryReadAttribute() { }
 
-        public QueryReadAttribute(SelectItemType[] queries, MethodType methodType)
-        {
-        }
-    }
-
-    public class SelectItemType
-    {
-        public SelectItemType(string query, string itemTypeName) 
+        public QueryReadAttribute(string[] queries, MethodType methodType)
         {
         }
     }
