@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a>Gedaq.Provider</a>
+  <a>Gedaq.Common</a>
 </h1>
 
 <h3 align="center">
