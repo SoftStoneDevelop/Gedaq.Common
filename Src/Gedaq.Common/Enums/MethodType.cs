@@ -5,7 +5,7 @@ namespace Gedaq.Provider.Enums
     [Flags]
     public enum MethodType
     {
-        Sync = 0,
+        Sync = 1,
         Async = 2
     }
 }
