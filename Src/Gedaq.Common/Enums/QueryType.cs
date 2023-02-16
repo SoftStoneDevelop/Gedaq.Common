@@ -1,6 +1,6 @@
 ﻿namespace Gedaq.Common.Enums
 {
-    public enum BatchType
+    public enum QueryType
     {
         Read = 0,
         NonQuery = 1,

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Gedaq.Provider.Enums
+namespace Gedaq.Common.Enums
 {
     [Flags]
     public enum MethodType
