@@ -7,7 +7,8 @@ namespace Gedaq.Common.Attributes
     {
         public QueryFormatAttribute(
             string methodName,
-            int position
+            int position,
+            string parametrName = null
             )
         {
         }
