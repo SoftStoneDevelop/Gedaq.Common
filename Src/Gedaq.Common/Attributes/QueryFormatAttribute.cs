@@ -6,7 +6,6 @@ namespace Gedaq.Common.Attributes
     public sealed class QueryFormatAttribute : Attribute
     {
         public QueryFormatAttribute(
-            string methodName,
             int position,
             string parametrName = null
             )
