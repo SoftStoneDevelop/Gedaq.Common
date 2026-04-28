@@ -12,8 +12,7 @@ namespace Gedaq.Common.Attributes
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="type">A type that the database provider knows about and does not need to be parsed into properties, but can be obtained from a string by requesting it from the provider</param>
-        public KnownTypeAttribute(Type type)
+        public KnownTypeAttribute()
         {
         }
     }
