@@ -17,7 +17,7 @@ namespace Gedaq.Common.Attributes
         /// <param name="order">Specifies the order, starting from 0, that this property will appear in the data returned in each row from the database.</param>
         public AliasAttribute(
             string alias = "",
-            int? order = null)
+            int order = -1)
         {
         }
     }
